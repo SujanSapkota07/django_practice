@@ -9,7 +9,7 @@ def login_page(request):
     return render(request, 'login_page.html')
 
 def landing_page(request):
-    return render(request, 'landing_page.html')
+    return render(request, 'index.html')
 
 def my_image(request):
     img = open('basic_login/templates/images/sujan.jpeg', 'rb')
